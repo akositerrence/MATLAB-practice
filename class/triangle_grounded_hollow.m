@@ -17,5 +17,14 @@ function triangle_grounded_hollow(x)
         fprintf '\n';
     end  
 
+    for i = 1:x
+        for k = 1:1:x-i
+            fprintf ' ';
+        end
+        for j = 2*i-1:-1:1
+            fprintf 'x';
+        end
+        fprintf '\n';
+    end
     
 end

@@ -1,1 +1,0 @@
-triangle_grounded_hollow(20);
